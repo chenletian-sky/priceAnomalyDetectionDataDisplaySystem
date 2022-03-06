@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Comp from './tools/CompTheme';
+import MyCalendarMap from './tools/myCalendarMap';
+import MyColumnChartFirst from './tools/myColumnChartFirst';
+import MyFisheyeDiagram from './tools/myFisheyeDiagram';
+import MyParallelCoordinateSystemDiagram from './tools/myParallelCoordinateSystemDiagram';
+import { Themes } from './tools/position';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+interface AppProps {
+
 }
+interface AppState {
 
+}
+class App extends Component<AppProps, AppState>{
+    public constructor(props: AppProps) {
+        super(props)
+    }
+
+    public render(): JSX.Element {
+        return (
+                <div className="App">
+                    <MyFisheyeDiagram 
+                        theme={Themes.MyFisheyeDiagramTheme}
+                    />
+                    <MyParallelCoordinateSystemDiagram 
+                        theme={Themes.MyParallelCoordinateSystemDiagramTheme}
+                    />
+                    <MyColumnChartFirst
+                        theme={Themes.MyColumnChartFirstTheme}
+                    ></MyColumnChartFirst>
+                    <MyCalendarMap
+                        theme={Themes.MyCalendarTheme}
+                    ></MyCalendarMap>
+                </div>
+            
+        )
+    }
+}
 export default App;
