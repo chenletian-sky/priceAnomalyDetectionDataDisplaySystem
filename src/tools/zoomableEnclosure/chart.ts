@@ -17,8 +17,8 @@ export default class Chart {
     renderTitle!: (() => void);
     addMouseOn!: (() => void);
     constructor(){
-        this._width = 600;
-        this._height = 400;
+        this._width = 750;
+        this._height = 700;
         this._margins = {top:30, left:30, right:30, bottom:30};
         this._data = [];
         this._scaleX = null;
@@ -31,7 +31,9 @@ export default class Chart {
     }
 
     width(w?: number){
-        if (arguments.length === 0) return this._width;
+        if (arguments.length === 0) 
+            return this._width;
+            // return this._box.
         this._width = w as number;
         return this;
     }
@@ -138,9 +140,11 @@ export default class Chart {
 
     renderChart(){
         if (!this._box){
-            this._box = d3.select('#IndexRoot')
+            this._box = d3.select('#MyFisheyeDiagram')
                             .append('div')
-                            .attr('class','box');
+                            .attr('class','box')
+                            .attr('style',"height:100%")
+            // console.log("_box",this._box)
         }
 
         if (!this._svg){

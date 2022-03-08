@@ -18,18 +18,22 @@ export const Themes = {
         background:"#F8F8FF"
     }
   },
+
+  // interfaceOne
   MyFisheyeDiagramTheme:{
     position:"relative",
     float:"left",
-    width:"60%", // 290 - 40 = 250
-    height:"100%", // 525 - 80 = 435
+    width:"59.9%", // 290 - 40 = 250
+    height:"99.9%", // 525 - 80 = 435
+    border:"1px solid rgb(180,180,180)",
     // backgroundColor:"blue"
   },
   MyParallelCoordinateSystemDiagramTheme:{
     position:"relative",
     float:"left",
     width:"40%", // 290 - 40 = 250
-    height:"34%", // 525 - 80 = 435
+    height:"33%", // 525 - 80 = 435
+    border:"1px solid rgb(180,180,180)",
     // backgroundColor:"black"
   },
   MyColumnChartFirstTheme:{
@@ -37,13 +41,68 @@ export const Themes = {
     float:"left",
     width:"40%",
     height:'33%',
+    border:"1px solid rgb(180,180,180)",
     // backgroundColor:"pink"
   },
   MyCalendarTheme:{
     position:"relative",
     float:"left",
     width:"40%",
-    height:'33%',
+    height:'34%',
+    border:"1px solid rgb(180,180,180)",
     // backgroundColor:"green"
+  },
+
+  // interfaceTwo
+  MyBubbleChartTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyPriceLineChartTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
+    border:"1px solid rgb(180,180,180)",
+  },
+
+  MyControlTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'20%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyMapTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'80%',
+    border:"1px solid rgb(180,180,180)",
+  },
+
+  MyProportionPieChartTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'33%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyHierarchicalColumnChartTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'33%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyHotSearchProductWordCloudMapTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'34%',
+    border:"1px solid rgb(180,180,180)",
   }
 }

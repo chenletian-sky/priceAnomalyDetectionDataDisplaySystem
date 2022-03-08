@@ -4,11 +4,16 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Comp from './tools/CompTheme';
+import { BrowserRouter } from "react-router-dom";
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
+  <BrowserRouter>
   <React.StrictMode>
     <App></App>
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 

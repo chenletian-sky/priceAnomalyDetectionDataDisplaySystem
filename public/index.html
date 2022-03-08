@@ -26,6 +26,7 @@
     -->
     <title>React App</title>
     <style>
+      /* 解决 布局不能100% 的问题 */
       html,body{
          height:100%;
         }
@@ -38,6 +39,9 @@
       }
       .App{
         height: 100%;
+      }
+      body::-webkit-scrollbar{
+          display: none;
       }
     </style>
   </head>
