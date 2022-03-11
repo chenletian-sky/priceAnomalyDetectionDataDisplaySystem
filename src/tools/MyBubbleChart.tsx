@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import * as d3 from "d3"
+import { Link } from 'react-router-dom';
 
 // const data = d3.csvParse(await FileAttachment("./data/factors@7.csv").text(), ({id, value}) => ({name: id, title: id, value: +value}))
 const data = require("./data/testBubble.json")
@@ -86,7 +87,9 @@ class MyBubbleChart extends Component <MyBubbleChartProps, MyBubbleChartState>{
                 id='MyBubbleChart'
                 style={{...this.props.theme}}
             >
-              
+                <nav>   
+                    <Link to="/">One</Link>
+                </nav>
             </div>
        )
     }

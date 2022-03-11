@@ -1,30 +1,32 @@
-import React, {Component} from 'react';
 import { Col, Row, Select } from 'antd';
-const { Option } = Select;
+import React, {Component} from 'react';
 
-interface MyControlProps {
+const {Option} = Select
+
+interface MyControlForAbnormalProps {
     theme:any
 }
-interface MyControlState {
+interface MyControlForAbnormalState {
 
 }
-class MyControl extends Component <MyControlProps, MyControlState>{
-    public constructor(props : MyControlProps) {
+class MyControlForAbnormal extends Component <MyControlForAbnormalProps, MyControlForAbnormalState>{
+    public constructor(props : MyControlForAbnormalProps) {
         super(props)
     }
 
     public render() : JSX.Element {
         return (
             <div
-                className='MyControl'
-                style={{...this.props.theme}}
+              className='MyControlForAbnormal'
+              id='MyControlForAbnormal'
+              style={{...this.props.theme}}
             >
                 <div
                     style={{
                         // height:"100px",
                         // width:"400px",
                         position:"relative",
-                        left:"290px",
+                        left:"230px",
                         top:"20px"
 
                     }}
@@ -36,34 +38,27 @@ class MyControl extends Component <MyControlProps, MyControlState>{
                         height:"100px",
                         width:"400px",
                         position:"relative",
-                        left:"150px",
+                        left:"90px",
                         top:"40px"
 
                     }}
                 >
                     <Row>
-                        <Col span={6}>
-                            <Select defaultValue={"日期"}>
-                                <Option value="jack">Jack</Option>
-                                <Option value="lucy">Lucy</Option>
-                                <Option value="test" children={undefined} ></Option>
-                            </Select>    
-                        </Col>
-                        <Col span={6}>
+                        <Col span={8}>
                             <Select defaultValue={"一级类目"}>
                                 <Option value="jack">Jack</Option>
                                 <Option value="lucy">Lucy</Option>
                                 <Option value="test" children={undefined} ></Option>
                             </Select>    
                         </Col>
-                        <Col span={6}>
+                        <Col span={8}>
                             <Select defaultValue={"二级类目"}>
                                 <Option value="jack">Jack</Option>
                                 <Option value="lucy">Lucy</Option>
                                 <Option value="test" children={undefined} ></Option>
                             </Select>    
                         </Col>
-                        <Col span={6}>
+                        <Col span={8}>
                             <Select defaultValue={"三级类目"}>
                                 <Option value="jack">Jack</Option>
                                 <Option value="lucy">Lucy</Option>
@@ -73,9 +68,8 @@ class MyControl extends Component <MyControlProps, MyControlState>{
                         
                     </Row>
                 </div>
-                
             </div>
        )
     }
 }
-export default MyControl;
+export default MyControlForAbnormal;

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import * as d3 from "d3";
 import Chart from './zoomableEnclosure/chart';
+import { Link } from 'react-router-dom';
 
 const data = require("./zoomableEnclosure/data.json")
 
@@ -204,7 +205,9 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
                 id='MyFisheyeDiagram'
                 style={{...this.props.theme}}
             >
-
+                <nav>
+                    <Link to="/two">Two</Link>
+                </nav>
             </div>
        )
     }

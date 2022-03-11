@@ -44,6 +44,22 @@ export const Themes = {
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"pink"
   },
+  MyForceDirectedGraphTheme:{
+    position:"relative",
+    float:"left",
+    width:"40%",
+    height:'33%',
+    border:"1px solid rgb(180,180,180)",
+    // backgroundColor:"pink"
+  },
+  MyMatrixViewTheme:{
+    position:"relative",
+    float:"left",
+    width:"40%",
+    height:'34%',
+    border:"1px solid rgb(180,180,180)",
+    // backgroundColor:"green"
+  },
   MyCalendarTheme:{
     position:"relative",
     float:"left",
@@ -103,6 +119,61 @@ export const Themes = {
     float:"left",
     width:"100%",
     height:'34%',
+    border:"1px solid rgb(180,180,180)",
+  },
+
+  // abnormal Page
+  MyControlForAbnormalTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'25%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyAbnormalInfoTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'35%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyAbnormalInfoDisplayTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'40%',
+    border:"1px solid rgb(180,180,180)",
+  },
+
+
+  MyScatterForPriceTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyScatterForSalesTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
+    border:"1px solid rgb(180,180,180)",
+  },
+
+
+  MyBoxPlotForPriceTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
+    border:"1px solid rgb(180,180,180)",
+  },
+  MyBoxPlotForSalesTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'50%',
     border:"1px solid rgb(180,180,180)",
   }
 }
