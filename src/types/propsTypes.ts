@@ -1,3 +1,41 @@
+/**
+ * 全局store类型
+ */
+export interface StoreType{
+  Main:MainStoreType
+}
+
+/**
+ * main 类型
+ */
+export interface MainStoreType{
+  data:any
+}
+
+/**
+ * 鱼眼图数据类型
+ */
+export interface FishDiagramStoreType{
+  data:{
+    name: string,
+    children:children
+  }
+}
+
+interface children extends Array<null | children> {
+  name: string,
+  children:children,
+  house?:number  
+}
+
+
+
+/**
+ * type类型 array专用
+ */
+export type tempType = Array<
+any>
+
 
 /**
  * 词云图形状

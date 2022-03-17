@@ -6,13 +6,20 @@ import reportWebVitals from './reportWebVitals';
 import Comp from './tools/CompTheme';
 import { BrowserRouter } from "react-router-dom";
 import 'antd/dist/antd.css';
+// redux 的相关准备
+import { Provider } from 'react-redux';
+import { createStore } from 'redux'
+import reducer from './reducer'
 
 ReactDOM.render(
-  <BrowserRouter>
-  <React.StrictMode>
-    <App></App>
-  </React.StrictMode>
-  </BrowserRouter>
+  <Provider store={createStore(reducer)}>
+    <BrowserRouter>
+    <React.StrictMode>
+      <App></App>
+    </React.StrictMode>
+    </BrowserRouter>
+  </Provider>
+  
   ,
   document.getElementById('root')
 );

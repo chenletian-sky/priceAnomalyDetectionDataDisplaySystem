@@ -44,3 +44,48 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Tips
+
+## `目录结构`
+
+```
+project
+│   README.md
+│
+└───src // 项目源文件
+│   │   App.tsx
+│   │   index.tsx
+|   |
+|   |____components // 组件
+|   |
+|   |____action // redux action
+│   |   |____index // 出口
+|   |
+|   |____constants // 常量文件夹
+│   |   |____index // 出口
+|   |
+|   |
+|   |____reducer // redux reducer
+│   |   |____index // 出口
+|   |
+|   |
+|   |____tools // 工具组件
+│   |   |____data // 测试用数据
+│   |   |    |   ...
+│   |   |
+│   |   | ... // 常规工具组件
+|   |
+|   |____pages // 页面
+│   |   | ... // 
+|   |
+|   |____types // 页面
+│   |   |  
+│   |   |____propsTypes //  常规propsTypes
+│   |   |____actionTypes // action 
+|
+└───public // 静态文件夹
+    │   index.html
+
+```
+
