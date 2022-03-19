@@ -5,3 +5,4 @@
  */
 export const TEMPTACTION = "TEMPTACTION"
 
+export const ACCEPTGLOBALDATA = "ACCEPTGLOBALDATA"

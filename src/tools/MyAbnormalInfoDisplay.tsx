@@ -23,44 +23,15 @@ const columns = [
     dataIndex: 'info2',
   },
 ];
-const data = [
-  {
-    key: '1',
-    name: '商品1',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-  {
-    key: '2',
-    name: '商品2',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-  {
-    key: '3',
-    name: '商品3',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-  {
-    key: '4',
-    name: '商品4',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-  {
-    key: '5',
-    name: '商品5',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-  {
-    key: '6',
-    name: '商品6',
-    info1: "xxxxxxx",
-    info2: 'xxxxxxx',
-  },
-];
+const data:Array<any> = []
+for(let i=0;i<100;i++){
+  data.push({
+    key:i,
+    name: `商品${i}`,
+    info1:"xxxxxx",
+    info2:"XXXXXX"
+  })
+}
 
 class MyAbnormalInfoDisplay extends Component <MyAbnormalInfoDisplayProps, MyAbnormalInfoDisplayState>{
     public constructor(props : MyAbnormalInfoDisplayProps) {
@@ -77,7 +48,14 @@ class MyAbnormalInfoDisplay extends Component <MyAbnormalInfoDisplayProps, MyAbn
               <Table 
                 columns={columns} 
                 dataSource={data} 
-                size="middle" 
+                size="small" 
+                scroll={{
+                  // y:`calc(10% - ${400})`
+                }}
+                pagination={{
+                  pageSize: 5,
+                  showSizeChanger:false
+                }}
               />
             </div>
        )

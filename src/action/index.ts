@@ -1,4 +1,4 @@
-import { TEMPTACTION } from "../types/actionTypes";
+import { ACCEPTGLOBALDATA, TEMPTACTION } from "../types/actionTypes";
 import { StoreType } from "../types/propsTypes";
 
 /**
@@ -6,5 +6,10 @@ import { StoreType } from "../types/propsTypes";
  */
 export const updateSomethingTempt = (data:StoreType) => ({
   type:TEMPTACTION,
+  data
+})
+
+export const acceptGlobalData = (data:any) => ({
+  type:ACCEPTGLOBALDATA,
   data
 })

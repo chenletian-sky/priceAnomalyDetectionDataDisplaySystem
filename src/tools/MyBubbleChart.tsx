@@ -58,7 +58,7 @@ class MyBubbleChart extends Component <MyBubbleChartProps, MyBubbleChartState>{
         leaf.append("circle")
             // @ts-ignore
             .attr("id", d => {
-                console.log("id",d)
+                // console.log("id",d)
                 // @ts-ignore
                 return d.data.id
             })

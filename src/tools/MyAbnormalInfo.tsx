@@ -15,8 +15,8 @@ class MyAbnormalInfo extends Component <MyAbnormalInfoProps, MyAbnormalInfoState
     }
 
     renderMyAbnormalInfo(){
-      const height = 380
-      const width = 340
+      const height = (document.getElementById("MyAbnormalInfo") as HTMLElement).offsetHeight
+      const width = (document.getElementById("MyAbnormalInfo") as HTMLElement).offsetWidth
 
       const pack = (data:any) => 
           d3.pack()
@@ -42,7 +42,7 @@ class MyAbnormalInfo extends Component <MyAbnormalInfoProps, MyAbnormalInfoState
                       .append("svg")
                       .attr("height",height)
                       .attr("width",width)
-                      .attr("transform","translate(60,-25)")
+                    //   .attr("transform","translate(60,-25)")
 
       const leaf = svg.selectAll("g")
           .data(root.leaves())
@@ -53,7 +53,7 @@ class MyAbnormalInfo extends Component <MyAbnormalInfoProps, MyAbnormalInfoState
       leaf.append("circle")
           // @ts-ignore
           .attr("id", d => {
-              console.log("id",d)
+              // console.log("id",d)
               // @ts-ignore
               return d.data.id
           })
@@ -69,9 +69,9 @@ class MyAbnormalInfo extends Component <MyAbnormalInfoProps, MyAbnormalInfoState
           // @ts-ignore
           .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g))
           .join("tspan")
-              .attr("x", -20)
+              .attr("x", -30)
               .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
-          // @ts-ignore
+            // @ts-ignore
               .text(d => d);
     }
 

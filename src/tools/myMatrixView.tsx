@@ -80,7 +80,7 @@ class MyMatrixView extends Component <MyMatrixViewProps, MyMatrixViewState>{
         })
       })
       
-      console.log("matrix basicData",basicData)
+      // console.log("matrix basicData",basicData)
 
       const xScale = d3.scaleBand(categoryArray as Iterable<NumberValue>,[35, padding.width - padding.right]).padding(0.3)
       const yScale = d3.scaleBand(monthArray,[15, padding.height-100]).padding(0.3)

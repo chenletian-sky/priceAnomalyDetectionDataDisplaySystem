@@ -20,24 +20,44 @@ export default function BaseInfoOne(props:BaseInfoOneProps) {
   return (
     <>
       {/* <button onClick={myHandleClick}>click</button> */}
-      <MyFisheyeDiagram
-          theme={Themes.MyFisheyeDiagramTheme}
-      />
-      <MyParallelCoordinateSystemDiagram
-          theme={Themes.MyParallelCoordinateSystemDiagramTheme}
-      />
-      {/* <MyColumnChartFirst
-          theme={Themes.MyColumnChartFirstTheme}
-      ></MyColumnChartFirst> */}
-      <MyForceDirectedGraph
-          theme={Themes.MyForceDirectedGraphTheme}
-      />
-      <MyMatrixView
-          theme={Themes.MyMatrixViewTheme}
-      />
-      {/* <MyCalendarMap
-          theme={Themes.MyCalendarTheme}
-      ></MyCalendarMap> */}
+      <div
+        style={{
+          position:"relative",
+          float:"left",
+          height:"100%",
+          width:"60%"
+        }}
+      >
+        <MyFisheyeDiagram
+            theme={Themes.MyFisheyeDiagramTheme}
+        />
+      </div>
+      <div
+        style={{
+          position:"relative",
+          float:"left",
+          height:"100%",
+          width:"40%",
+        }}
+      >
+        <MyParallelCoordinateSystemDiagram
+            theme={Themes.MyParallelCoordinateSystemDiagramTheme}
+            myLocation={undefined}
+        />
+        {/* <MyColumnChartFirst
+            theme={Themes.MyColumnChartFirstTheme}
+        ></MyColumnChartFirst> */}
+        <MyForceDirectedGraph
+            theme={Themes.MyForceDirectedGraphTheme}
+        />
+        <MyMatrixView
+            theme={Themes.MyMatrixViewTheme}
+        />
+        {/* <MyCalendarMap
+            theme={Themes.MyCalendarTheme}
+        ></MyCalendarMap> */}
+      </div>
+      
   </>
   )
 }

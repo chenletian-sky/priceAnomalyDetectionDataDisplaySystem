@@ -26,7 +26,7 @@ class MyControlForAbnormal extends Component <MyControlForAbnormalProps, MyContr
                         // height:"100px",
                         // width:"400px",
                         position:"relative",
-                        left:"230px",
+                        left:"170px",
                         top:"20px"
 
                     }}
@@ -38,8 +38,8 @@ class MyControlForAbnormal extends Component <MyControlForAbnormalProps, MyContr
                         height:"100px",
                         width:"400px",
                         position:"relative",
-                        left:"90px",
-                        top:"40px"
+                        left:"20px",
+                        top:"60px"
 
                     }}
                 >

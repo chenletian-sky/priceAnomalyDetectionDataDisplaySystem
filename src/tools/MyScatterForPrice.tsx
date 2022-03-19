@@ -16,9 +16,9 @@ class MyScatterForPrice extends Component <MyScatterForPriceProps, MyScatterForP
 
     renderMyScatterForPrice(){
       
-      var width = 900
-      var height = 460
-      var margin = ({top: 20, right: 70, bottom: 40, left: 50})
+      var width = (document.getElementById("MyScatterForPrice") as HTMLElement).offsetWidth
+      var height = (document.getElementById("MyScatterForPrice") as HTMLElement).offsetHeight
+      var margin = ({top: 10, right: 10, bottom: 20, left: 20})
       const xSelect = {title: "X-axis", 
             description: "Choose covariate",
             options: ['Age',
@@ -117,11 +117,11 @@ class MyScatterForPrice extends Component <MyScatterForPriceProps, MyScatterForP
               .style("opacity", .9);
           
             // Writes the municipality name in the tooltip
-            div.html(d.Municipality)
-            // @ts-ignore
-              .style("left", (event,d) => (event.pageX) + "px")
-            // @ts-ignore
-              .style("top", (event,d) => (event.pageY) + "px")
+            // div.html(d.Municipality)
+            // // @ts-ignore
+            //   .style("left", (event,d) => (event.pageX) + "px")
+            // // @ts-ignore
+            //   .style("top", (event,d) => (event.pageY) + "px")
           })
       
           // Setting things back to normal after tool tip

@@ -1,5 +1,12 @@
 export const Themes = {
   // exmple
+  TestChartTheme:{
+    position:"relative",
+    float:"left",
+    width:"100%",
+    height:'100%',
+    border:"1px solid rgb(180,180,180)",
+  },
   // 1450 750
   ControlTheme:{
     position:"relative",
@@ -23,23 +30,23 @@ export const Themes = {
   MyFisheyeDiagramTheme:{
     position:"relative",
     float:"left",
-    width:"59.9%", // 290 - 40 = 250
-    height:"99.9%", // 525 - 80 = 435
+    width:"100%",
+    height:'100%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"blue"
   },
   MyParallelCoordinateSystemDiagramTheme:{
     position:"relative",
     float:"left",
-    width:"40%", // 290 - 40 = 250
-    height:"33%", // 525 - 80 = 435
+    width:"100%",
+    height:'33%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"black"
   },
   MyColumnChartFirstTheme:{
     position:"relative",
     float:"left",
-    width:"40%",
+    width:"100%",
     height:'33%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"pink"
@@ -47,7 +54,7 @@ export const Themes = {
   MyForceDirectedGraphTheme:{
     position:"relative",
     float:"left",
-    width:"40%",
+    width:"100%",
     height:'33%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"pink"
@@ -55,7 +62,7 @@ export const Themes = {
   MyMatrixViewTheme:{
     position:"relative",
     float:"left",
-    width:"40%",
+    width:"100%",
     height:'34%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"green"
@@ -63,8 +70,8 @@ export const Themes = {
   MyCalendarTheme:{
     position:"relative",
     float:"left",
-    width:"40%",
-    height:'34%',
+    width:"100%",
+    height:'50%',
     border:"1px solid rgb(180,180,180)",
     // backgroundColor:"green"
   },

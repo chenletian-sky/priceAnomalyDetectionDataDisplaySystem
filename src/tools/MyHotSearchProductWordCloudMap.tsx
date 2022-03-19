@@ -35,8 +35,8 @@ class MyHotSearchProductWordCloudMap extends Component <MyHotSearchProductWordCl
         var chartDom = document.getElementById('MyHotSearchProductWordCloudMap')!;
         var myCharts = echarts.init(chartDom);
         let {classId} = this.state;
-        console.log(WordsCloudData)
-        console.log(typeof(WordsCloudData))
+        // console.log(WordsCloudData)
+        // console.log(typeof(WordsCloudData))
         // jsonList 用于绘制对应类词云图的数据
         var jsonList:Array<{
             name: string;

@@ -6,13 +6,17 @@ import { Link } from 'react-router-dom';
 import { MainStoreType, StoreType } from '../types/propsTypes';
 import { updateSomethingTempt } from '../action';
 import { connect } from 'react-redux';
+import MyHeader from '../components/MyHeader';
+import { keys } from '../components/methods';
 
 // const data = require("./zoomableEnclosure/data.json")
 const data = require("./data/fishEyeDiagram.json")
+
 interface MyFisheyeDiagramProps{
     theme:any;
     // test push
-    Main:MainStoreType
+    Main:MainStoreType,
+    updateSomethingTempt:typeof updateSomethingTempt
 }
 interface MyFisheyeDiagramState {
     height: number,
@@ -28,8 +32,26 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
     }
 
     componentDidMount(){
+        const tree = (data:any) => {
+            const root = d3.hierarchy(data)
+                .sort((a, b) => b.height - a.height
+                    || a.data.name.localeCompare(b.data.name));
+            // @ts-ignore
+            root.dx = 10;
+            // @ts-ignore
+            root.dy = width / (root.height + 2);
+            return d3.cluster()
+            // @ts-ignore
+                .nodeSize([root.dx, root.dy])
+              (root);
+          }
+        const rawData = this.props.Main.data
+        // const root = d3.hierarchy(rawData["文化玩乐"])
+        const myRoot = d3.hierarchy(rawData["文化玩乐"])
+        console.log("root fish eye",myRoot)
+
         this.renderZoomableEnclosure()
-        console.log("fisheyeDiagram",this.props.Main.data)
+        // console.log("fisheyeDiagram",this.props.Main.data)
         // console.log("innerHeight innerWidth",(document.getElementById("zoomableEnclosure") as HTMLElement).getAttribute("height"))
     }
 
@@ -247,6 +269,7 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
                     .attr("height",height/16)
                     .attr("width",width/16)
             .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
+            // .attr("transform", `translate(${0},${-14})`)
             .style("display", "block")
             .style("margin", "0 -14px")
             // .style("width", "calc(100% + 28px)")
@@ -256,11 +279,11 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
             .style("cursor", "pointer")
             .on("click", () => zoom(root))
             // @ts-ignore
-            .call(d3.zoom()
-            .extent([[0, 0], [width, height]])
-            .scaleExtent([1, 8])
-            // @ts-ignore
-            .on("zoom", ({transform}) => svg.attr("transform",transform) ))
+            // .call(d3.zoom()
+            // .extent([[0, 0], [width, height]])
+            // .scaleExtent([1, 8])
+            // // @ts-ignore
+            // .on("zoom", ({transform}) => svg.attr("transform",transform) ))
             
 
         const node = svg.append("g")
@@ -341,6 +364,7 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
                 id='MyFisheyeDiagram'
                 style={{...this.props.theme}}
             >
+                <MyHeader title='FishEyeDiagram'></MyHeader>
                 {/* <nav>
                     <Link to="/two">Two</Link>
                 </nav> */}
@@ -358,7 +382,7 @@ const mapStateToProps = (state:StoreType,ownProps?:any) => {
 }
 
 const mapDispatchToProps = {
-    updateSomethingTempt
+    
 }
 
 

@@ -15,9 +15,9 @@ class MyScatterForSales extends Component <MyScatterForSalesProps, MyScatterForS
     }
 
     renderMyScatterForSales(){
-      var width = 900
-      var height = 460
-      var margin = ({top: 20, right: 70, bottom: 40, left: 50})
+      var width = (document.getElementById("MyScatterForSales") as HTMLElement).offsetWidth
+      var height = (document.getElementById("MyScatterForSales") as HTMLElement).offsetHeight
+      var margin = ({top: 10, right: 10, bottom: 20, left: 20})
       const xSelect = {title: "X-axis", 
             description: "Choose covariate",
             options: ['Cohabitation',

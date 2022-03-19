@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { TEMPTACTION } from '../types/actionTypes'
+import { ACCEPTGLOBALDATA, TEMPTACTION } from '../types/actionTypes'
 import { MainStoreType, StoreType } from '../types/propsTypes'
 
 
@@ -10,9 +10,10 @@ const initStore:StoreType = {
 }
 
 const MainReducer = (state:MainStoreType = initStore.Main,action:any) => {
-  if( action.type === TEMPTACTION){
+  if(action.type === ACCEPTGLOBALDATA){
     const {data} = action
-    return  {
+    // console.log("reducer main",data)
+    return {
       ...state,
       data
     }
