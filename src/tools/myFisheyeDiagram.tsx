@@ -365,6 +365,7 @@ class MyFisheyeDiagram extends Component <MyFisheyeDiagramProps, MyFisheyeDiagra
                 style={{...this.props.theme}}
             >
                 <MyHeader title='FishEyeDiagram'></MyHeader>
+                
                 {/* <nav>
                     <Link to="/two">Two</Link>
                 </nav> */}
