@@ -27,7 +27,7 @@ class TimeBox extends Component <TimeBoxProps, TimeBoxState>{
             const h: number = dt.getHours(); //获取时
             const m: number = dt.getMinutes(); //获取分
             const s: number = dt.getSeconds(); //获取秒
-            document.getElementById("showTime")!.innerHTML = y + "/" + mt + "/" + day + " " + h + ":" + m + ":" + s + "";
+            (document.getElementById("showTime") as HTMLElement).innerHTML = y + "/" + mt + "/" + day + " " + h + ":" + m + ":" + s + "";
         }, 1000)
     }
 

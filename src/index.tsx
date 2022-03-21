@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css';
 // import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Comp from './tools/CompTheme';
 import { BrowserRouter } from "react-router-dom";
-import 'antd/dist/antd.css';
+
 // redux 的相关准备
 import { Provider } from 'react-redux';
 import { createStore } from 'redux'

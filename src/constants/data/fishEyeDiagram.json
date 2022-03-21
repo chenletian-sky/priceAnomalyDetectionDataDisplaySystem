@@ -1,0 +1,1465 @@
+{
+  "name": "FyndCategory",
+  "children": [{
+    "name": "men",
+    "children": [{
+      "name": "accessories",
+      "children": [{
+        "name": "bags & wallets",
+        "children": [{
+          "name": "wallets",
+          "children": [{
+            "name": "wallets",
+            "value": 241
+          }]
+        }]
+      }, {
+        "name": "belts",
+        "children": [{
+          "name": "ties & add-ons",
+          "children": [{
+            "name": "handkerchiefs",
+            "value": 3736
+          }]
+        }]
+      }, {
+        "name": "caps & hats",
+        "children": [{
+          "name": "hats",
+          "children": [{
+            "name": "hats_fedora",
+            "value": 1123
+          }]
+        }]
+      }, {
+        "name": "shawls & stoles",
+        "children": [{
+          "name": "stoles",
+          "children": [{
+            "name": "stoles",
+            "value": 2311
+          }]
+        }]
+      }, {
+        "name": "socks",
+        "children": [{
+          "name": "socks",
+          "children": [{
+            "name": "socks",
+            "value": 3024
+          }]
+        }]
+      }, {
+        "name": "sports accessories",
+        "children": [{
+          "name": "accessories",
+          "children": [{
+            "name": "activewear_accessories",
+            "value": 9569
+          }]
+        }]
+      }, {
+        "name": "sunglasses & frames",
+        "children": [{
+          "name": "wayfarers",
+          "children": [{
+            "name": "sunglasses_wayfarers",
+            "value": 1150
+          }]
+        }]
+      }, {
+        "name": "watches",
+        "children": [{
+          "name": "digital watches",
+          "children": [{
+            "name": "watches_digital",
+            "value": 9705
+          }]
+        }]
+      }, {
+        "name": "jewellery",
+        "children": [{
+          "name": "pendants",
+          "children": [{
+            "name": "pendants",
+            "value": 908
+          }]
+        }]
+      }]
+    }, {
+      "name": "clothing",
+      "children": [{
+        "name": "activewear",
+        "children": [{
+          "name": "tracksuits",
+          "children": [{
+            "name": "activewear_tracksuits",
+            "value": 424
+          }]
+        }]
+      }, {
+        "name": "beachwear & swimwear",
+        "children": [{
+          "name": "trunks",
+          "children": [{
+            "name": "beachwear_trunks",
+            "value": 2262
+          }]
+        }]
+      }, {
+        "name": "casual trousers",
+        "children": [{
+          "name": "joggers",
+          "children": [{
+            "name": "casual_joggers",
+            "value": 121
+          }]
+        }]
+      }, {
+        "name": "formal trousers",
+        "children": [{
+          "name": "formal trousers",
+          "children": [{
+            "name": "formal_trousers_bootcut",
+            "value": 2402
+          }, {
+            "name": "formal_trousers_cropped",
+            "value": 2730
+          }, {
+            "name": "formal_trousers_flat_front",
+            "value": 5238
+          }, {
+            "name": "formal_trousers_pleated",
+            "value": 7482
+          }, {
+            "name": "formal_trousers_tapered",
+            "value": 4780
+          }]
+        }]
+      }, {
+        "name": "jackets",
+        "children": [{
+          "name": "windcheater",
+          "children": [{
+            "name": "western_jackets_windcheater",
+            "value": 2340
+          }]
+        }]
+      }, {
+        "name": "jeans",
+        "children": [{
+          "name": "jeans",
+          "children": [{
+            "name": "jeans_bootcut",
+            "value": 1050
+          }, {
+            "name": "jeans_cropped",
+            "value": 1692
+          }, {
+            "name": "jeans_drop_crotch",
+            "value": 626
+          }, {
+            "name": "jeans_dungarees",
+            "value": 4587
+          }, {
+            "name": "jeans_joggers",
+            "value": 2522
+          }, {
+            "name": "jeans_straight",
+            "value": 8237
+          }, {
+            "name": "jeans_tapered",
+            "value": 2832
+          }]
+        }]
+      }, {
+        "name": "polos & t-shirts",
+        "children": [{
+          "name": "t-shirts",
+          "children": [{
+            "name": "casual_tees",
+            "value": 3280
+          }]
+        }]
+      }, {
+        "name": "shirts",
+        "children": [{
+          "name": "formal shirts",
+          "children": [{
+            "name": "formal_shirts",
+            "value": 379
+          }]
+        }]
+      }, {
+        "name": "shorts & 3/4ths",
+        "children": [{
+          "name": "shorts",
+          "children": [{
+            "name": "casual_shorts",
+            "value": 3229
+          }]
+        }]
+      }, {
+        "name": "suits & blazers",
+        "children": [{
+          "name": "waistcoats",
+          "children": [{
+            "name": "waistcoats",
+            "value": 806
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "sweatshirts",
+          "children": [{
+            "name": "sweatshirts",
+            "value": 7153
+          }]
+        }]
+      }]
+    }, {
+      "name": "ethnic wear",
+      "children": [{
+        "name": "ethnic bottoms",
+        "children": [{
+          "name": "dhotis",
+          "children": [{
+            "name": "dhotis",
+            "value": 73
+          }]
+        }]
+      }, {
+        "name": "kurtas",
+        "children": [{
+          "name": "jackets & ethnic sets",
+          "children": [{
+            "name": "sherwanis",
+            "value": 3610
+          }]
+        }]
+      }]
+    }, {
+      "name": "footwear",
+      "children": [{
+        "name": "boots",
+        "children": [{
+          "name": "boots",
+          "children": [{
+            "name": "boots",
+            "value": 8548
+          }]
+        }]
+      }, {
+        "name": "casual shoes",
+        "children": [{
+          "name": "moccasins",
+          "children": [{
+            "name": "moccasins",
+            "value": 1836
+          }]
+        }]
+      }, {
+        "name": "flip flops & slippers",
+        "children": [{
+          "name": "slippers",
+          "children": [{
+            "name": "slippers",
+            "value": 6352
+          }]
+        }]
+      }, {
+        "name": "formal shoes",
+        "children": [{
+          "name": "oxfords",
+          "children": [{
+            "name": "formal_shoes_oxfords",
+            "value": 8057
+          }]
+        }]
+      }, {
+        "name": "sandals & floaters",
+        "children": [{
+          "name": "flat slip-ons",
+          "children": [{
+            "name": "flat_slip_ons",
+            "value": 4746
+          }]
+        }]
+      }, {
+        "name": "sneakers",
+        "children": [{
+          "name": "sneakers",
+          "children": [{
+            "name": "sneakers",
+            "value": 5532
+          }]
+        }]
+      }, {
+        "name": "sports shoes",
+        "children": [{
+          "name": "trainers",
+          "children": [{
+            "name": "shoes_trainers",
+            "value": 3790
+          }]
+        }]
+      }]
+    }, {
+      "name": "innerwear & nightwear",
+      "children": [{
+        "name": "innerwear",
+        "children": [{
+          "name": "vests",
+          "children": [{
+            "name": "innerwear_vests",
+            "value": 2570
+          }]
+        }]
+      }, {
+        "name": "nightwear",
+        "children": [{
+          "name": "pyjamas",
+          "children": [{
+            "name": "sleepwear_pyjamas",
+            "value": 7497
+          }]
+        }]
+      }, {
+        "name": "underwear",
+        "children": [{
+          "name": "trunks",
+          "children": [{
+            "name": "innerwear_trunks",
+            "value": 4521
+          }]
+        }]
+      }]
+    }, {
+      "name": "jewellery",
+      "children": [{
+        "name": "chains & pendants",
+        "children": [{
+          "name": "chains",
+          "children": [{
+            "name": "chains",
+            "value": 8965
+          }]
+        }]
+      }, {
+        "name": "earrings",
+        "children": [{
+          "name": "studs",
+          "children": [{
+            "name": "earrings_studs",
+            "value": 5617
+          }]
+        }]
+      }, {
+        "name": "rings & bands",
+        "children": [{
+          "name": "rings",
+          "children": [{
+            "name": "rings",
+            "value": 8136
+          }]
+        }]
+      }]
+    }, {
+      "name": "others",
+      "children": [{
+        "name": "others",
+        "children": [{
+          "name": "others",
+          "children": [{
+            "name": "others",
+            "value": 3776
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "women",
+    "children": [{
+      "name": "accessories",
+      "children": [{
+        "name": "bags & clutches",
+        "children": [{
+          "name": "wallets",
+          "children": [{
+            "name": "wallets",
+            "value": 4922
+          }]
+        }]
+      }, {
+        "name": "belts",
+        "children": [{
+          "name": "ties & add-ons",
+          "children": [{
+            "name": "belts",
+            "value": 3738
+          }]
+        }]
+      }, {
+        "name": "caps & hats",
+        "children": [{
+          "name": "hats",
+          "children": [{
+            "name": "hats_fedora",
+            "value": 4882
+          }]
+        }]
+      }, {
+        "name": "hair accessories",
+        "children": [{
+          "name": "maang tikka",
+          "children": [{
+            "name": "maang_tikka",
+            "value": 1907
+          }]
+        }]
+      }, {
+        "name": "scarves & stoles",
+        "children": [{
+          "name": "stoles",
+          "children": [{
+            "name": "stoles",
+            "value": 4662
+          }]
+        }]
+      }, {
+        "name": "socks & stockings",
+        "children": [{
+          "name": "stockings",
+          "children": [{
+            "name": "stockings",
+            "value": 2126
+          }]
+        }]
+      }, {
+        "name": "sunglasses & frames",
+        "children": [{
+          "name": "wayfarers",
+          "children": [{
+            "name": "sunglasses_wayfarers",
+            "value": 7029
+          }]
+        }]
+      }, {
+        "name": "watches",
+        "children": [{
+          "name": "digital watches",
+          "children": [{
+            "name": "watches_digital",
+            "value": 673
+          }]
+        }]
+      }, {
+        "name": "sports accessories",
+        "children": [{
+          "name": "accessories",
+          "children": [{
+            "name": "activewear_accessories",
+            "value": 4179
+          }]
+        }]
+      }]
+    }, {
+      "name": "clothing",
+      "children": [{
+        "name": "activewear",
+        "children": [{
+          "name": "yoga pants",
+          "children": [{
+            "name": "activewear_yoga_pants",
+            "value": 9360
+          }]
+        }]
+      }, {
+        "name": "beachwear & swimwear",
+        "children": [{
+          "name": "swimsuit",
+          "children": [{
+            "name": "beachwear_swimsuit",
+            "value": 508
+          }]
+        }]
+      }, {
+        "name": "casual trousers",
+        "children": [{
+          "name": "palazzos",
+          "children": [{
+            "name": "western_wear_palazzos",
+            "value": 373
+          }]
+        }]
+      }, {
+        "name": "dresses & jumpsuits",
+        "children": [{
+          "name": "tube dress",
+          "children": [{
+            "name": "western_wear_dresses_tube",
+            "value": 1733
+          }]
+        }]
+      }, {
+        "name": "formal trousers",
+        "children": [{
+          "name": "formal trousers",
+          "children": [{
+            "name": "formal_trousers_cropped",
+            "value": 9072
+          }, {
+            "name": "formal_trousers_flared",
+            "value": 7074
+          }, {
+            "name": "formal_trousers_pleated",
+            "value": 4893
+          }, {
+            "name": "formal_trousers_straight",
+            "value": 7344
+          }, {
+            "name": "formal_trousers_tapered",
+            "value": 7866
+          }]
+        }]
+      }, {
+        "name": "jeans & jeggings",
+        "children": [{
+          "name": "jeggings",
+          "children": [{
+            "name": "jeggings",
+            "value": 5946
+          }]
+        }]
+      }, {
+        "name": "shapewear",
+        "children": [{
+          "name": "camisoles & corsets",
+          "children": [{
+            "name": "shapewear",
+            "value": 985
+          }]
+        }]
+      }, {
+        "name": "shirts",
+        "children": [{
+          "name": "formal shirts",
+          "children": [{
+            "name": "formal_shirts",
+            "value": 1465
+          }]
+        }]
+      }, {
+        "name": "shrugs",
+        "children": [{
+          "name": "jackets & blazers",
+          "children": [{
+            "name": "western_jackets_windcheater",
+            "value": 7383
+          }]
+        }]
+      }, {
+        "name": "skirts & shorts",
+        "children": [{
+          "name": "skirts",
+          "children": [{
+            "name": "skirts_straight",
+            "value": 1631
+          }]
+        }]
+      }, {
+        "name": "tops",
+        "children": [{
+          "name": "tees & tunics",
+          "children": [{
+            "name": "tunics",
+            "value": 9425
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "sweatshirts",
+          "children": [{
+            "name": "sweatshirts",
+            "value": 4500
+          }]
+        }]
+      }]
+    }, {
+      "name": "ethnic wear",
+      "children": [{
+        "name": "dress material",
+        "children": [{
+          "name": "suit sets",
+          "children": [{
+            "name": "dress_material_suit_sets_unstitched",
+            "value": 8826
+          }]
+        }]
+      }, {
+        "name": "ethnic jackets",
+        "children": [{
+          "name": "ethnic jackets",
+          "children": [{
+            "name": "ethnic_jackets",
+            "value": 6934
+          }]
+        }]
+      }, {
+        "name": "hijabs & abayas",
+        "children": [{
+          "name": "hijabs",
+          "children": [{
+            "name": "hijabs",
+            "value": 6680
+          }]
+        }]
+      }, {
+        "name": "kurta",
+        "children": [{
+          "name": "kurtis & anarkalis",
+          "children": [{
+            "name": "kurtis_spaghetti",
+            "value": 1964
+          }]
+        }]
+      }, {
+        "name": "lehengas & gowns",
+        "children": [{
+          "name": "lehengas",
+          "children": [{
+            "name": "ethnic_lehengas",
+            "value": 4741
+          }]
+        }]
+      }, {
+        "name": "salwars",
+        "children": [{
+          "name": "churidars & leggings",
+          "children": [{
+            "name": "salwars",
+            "value": 310
+          }]
+        }]
+      }, {
+        "name": "sarees & blouses",
+        "children": [{
+          "name": "sarees",
+          "children": [{
+            "name": "sarees",
+            "value": 8009
+          }]
+        }]
+      }, {
+        "name": "shawls & dupattas",
+        "children": [{
+          "name": "shawls",
+          "children": [{
+            "name": "shawls",
+            "value": 5646
+          }]
+        }]
+      }, {
+        "name": "suit sets",
+        "children": [{
+          "name": "salwar",
+          "children": [{
+            "name": "salwar_kurta_and_dupatta",
+            "value": 511
+          }]
+        }]
+      }]
+    }, {
+      "name": "footwear",
+      "children": [{
+        "name": "ballerinas",
+        "children": [{
+          "name": "ballerinas",
+          "children": [{
+            "name": "ballerinas",
+            "value": 561
+          }]
+        }]
+      }, {
+        "name": "boots",
+        "children": [{
+          "name": "boots",
+          "children": [{
+            "name": "boots",
+            "value": 8107
+          }]
+        }]
+      }, {
+        "name": "casual shoes",
+        "children": [{
+          "name": "casual slip-ons",
+          "children": [{
+            "name": "casual_shoes_slip-ons",
+            "value": 7195
+          }]
+        }]
+      }, {
+        "name": "flats",
+        "children": [{
+          "name": "pointed toe",
+          "children": [{
+            "name": "flats_pointed_toe",
+            "value": 3461
+          }]
+        }]
+      }, {
+        "name": "floaters & flip flops",
+        "children": [{
+          "name": "floaters",
+          "children": [{
+            "name": "floaters",
+            "value": 1441
+          }]
+        }]
+      }, {
+        "name": "heels",
+        "children": [{
+          "name": "pumps",
+          "children": [{
+            "name": "pumps",
+            "value": 6308
+          }]
+        }]
+      }, {
+        "name": "sneakers",
+        "children": [{
+          "name": "sneakers",
+          "children": [{
+            "name": "sneakers",
+            "value": 3387
+          }]
+        }]
+      }, {
+        "name": "sports shoes",
+        "children": [{
+          "name": "trainers",
+          "children": [{
+            "name": "shoes_trainers",
+            "value": 7737
+          }]
+        }]
+      }]
+    }, {
+      "name": "jewellery",
+      "children": [{
+        "name": "anklets & toe rings",
+        "children": [{
+          "name": "toe rings",
+          "children": [{
+            "name": "toe_rings",
+            "value": 1479
+          }]
+        }]
+      }, {
+        "name": "bangles & bracelets",
+        "children": [{
+          "name": "kadas",
+          "children": [{
+            "name": "kadas",
+            "value": 5650
+          }]
+        }]
+      }, {
+        "name": "earrings",
+        "children": [{
+          "name": "studs",
+          "children": [{
+            "name": "earrings_studs",
+            "value": 8635
+          }]
+        }]
+      }, {
+        "name": "necklaces & pendants",
+        "children": [{
+          "name": "pendants",
+          "children": [{
+            "name": "pendants",
+            "value": 861
+          }]
+        }]
+      }, {
+        "name": "rings & bands",
+        "children": [{
+          "name": "rings",
+          "children": [{
+            "name": "rings",
+            "value": 8534
+          }]
+        }]
+      }]
+    }, {
+      "name": "lingerie",
+      "children": [{
+        "name": "bras",
+        "children": [{
+          "name": "t-shirt bra",
+          "children": [{
+            "name": "bras_t-shirt",
+            "value": 888
+          }]
+        }]
+      }, {
+        "name": "lingerie accessories",
+        "children": [{
+          "name": "lingerie accessories",
+          "children": [{
+            "name": "lingerie_accessories",
+            "value": 6002
+          }]
+        }]
+      }, {
+        "name": "lingerie set",
+        "children": [{
+          "name": "lingerie set",
+          "children": [{
+            "name": "lingerie_set",
+            "value": 5381
+          }]
+        }]
+      }, {
+        "name": "panties",
+        "children": [{
+          "name": "thongs",
+          "children": [{
+            "name": "panties_thongs",
+            "value": 8520
+          }]
+        }]
+      }]
+    }, {
+      "name": "nightwear & loungewear",
+      "children": [{
+        "name": "innerwear",
+        "children": [{
+          "name": "thermal tops",
+          "children": [{
+            "name": "thermal_tops",
+            "value": 2135
+          }]
+        }]
+      }, {
+        "name": "nightwear",
+        "children": [{
+          "name": "sleep shorts",
+          "children": [{
+            "name": "sleepwear_shorts",
+            "value": 9494
+          }]
+        }]
+      }]
+    }, {
+      "name": "others",
+      "children": [{
+        "name": "others",
+        "children": [{
+          "name": "others",
+          "children": [{
+            "name": "others",
+            "value": 1616
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "boys",
+    "children": [{
+      "name": "clothing",
+      "children": [{
+        "name": "tees",
+        "children": [{
+          "name": "shirts & twin sets",
+          "children": [{
+            "name": "dungarees",
+            "value": 8861
+          }]
+        }]
+      }, {
+        "name": "jeans",
+        "children": [{
+          "name": "jeggings & trousers",
+          "children": [{
+            "name": "casual_pants",
+            "value": 1388
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "cardigans",
+          "children": [{
+            "name": "cardigans",
+            "value": 582
+          }]
+        }]
+      }, {
+        "name": "suits & blazers",
+        "children": [{
+          "name": "suits",
+          "children": [{
+            "name": "suits",
+            "value": 8789
+          }]
+        }]
+      }, {
+        "name": "beachwear & swimwear",
+        "children": [{
+          "name": "beachwear bottoms",
+          "children": [{
+            "name": "beachwear_bottoms",
+            "value": 5539
+          }]
+        }]
+      }]
+    }, {
+      "name": "ethnic wear",
+      "children": [{
+        "name": "kurtas",
+        "children": [{
+          "name": "jackets & ethnic sets",
+          "children": [{
+            "name": "ethnic_jackets",
+            "value": 856
+          }]
+        }]
+      }]
+    }, {
+      "name": "innerwear & nightwear",
+      "children": [{
+        "name": "nightwear",
+        "children": [{
+          "name": "thermal bottoms",
+          "children": [{
+            "name": "thermal_bottoms",
+            "value": 9698
+          }]
+        }]
+      }, {
+        "name": "innerwear",
+        "children": [{
+          "name": "bath robe",
+          "children": [{
+            "name": "bath_robe",
+            "value": 455
+          }]
+        }]
+      }]
+    }, {
+      "name": "footwear",
+      "children": [{
+        "name": "casual shoes",
+        "children": [{
+          "name": "loafers",
+          "children": [{
+            "name": "loafers",
+            "value": 774
+          }]
+        }]
+      }, {
+        "name": "sports shoes",
+        "children": [{
+          "name": "outdoor sports shoes",
+          "children": [{
+            "name": "outdoor_sports_shoes",
+            "value": 3257
+          }]
+        }]
+      }, {
+        "name": "formal shoes",
+        "children": [{
+          "name": "school shoes",
+          "children": [{
+            "name": "school_shoes",
+            "value": 9590
+          }]
+        }]
+      }, {
+        "name": "sandals & floaters",
+        "children": [{
+          "name": "floaters",
+          "children": [{
+            "name": "floaters",
+            "value": 2788
+          }]
+        }]
+      }, {
+        "name": "flip flops & slippers",
+        "children": [{
+          "name": "flip flops",
+          "children": [{
+            "name": "flip_flops",
+            "value": 170
+          }]
+        }]
+      }]
+    }, {
+      "name": "accessories",
+      "children": [{
+        "name": "bags & backpacks",
+        "children": [{
+          "name": "wallets",
+          "children": [{
+            "name": "wallets",
+            "value": 8485
+          }]
+        }]
+      }, {
+        "name": "watches",
+        "children": [{
+          "name": "digital watches",
+          "children": [{
+            "name": "watches_digital",
+            "value": 3595
+          }]
+        }]
+      }, {
+        "name": "belts",
+        "children": [{
+          "name": "ties & add-ons",
+          "children": [{
+            "name": "ties",
+            "value": 229
+          }]
+        }]
+      }, {
+        "name": "sunglasses & frames",
+        "children": [{
+          "name": "frames",
+          "children": [{
+            "name": "frames",
+            "value": 5478
+          }]
+        }]
+      }, {
+        "name": "caps & hats",
+        "children": [{
+          "name": "hats",
+          "children": [{
+            "name": "hats",
+            "value": 7103
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "mittens",
+          "children": [{
+            "name": "mittens",
+            "value": 1162
+          }]
+        }]
+      }, {
+        "name": "socks",
+        "children": [{
+          "name": "socks",
+          "children": [{
+            "name": "socks",
+            "value": 2462
+          }]
+        }]
+      }]
+    }, {
+      "name": "jewellery",
+      "children": [{
+        "name": "earrings",
+        "children": [{
+          "name": "studs",
+          "children": [{
+            "name": "earrings_studs",
+            "value": 1595
+          }]
+        }]
+      }, {
+        "name": "rings & bands",
+        "children": [{
+          "name": "rings",
+          "children": [{
+            "name": "rings",
+            "value": 9029
+          }]
+        }]
+      }, {
+        "name": "chains & pendants",
+        "children": [{
+          "name": "pendants",
+          "children": [{
+            "name": "pendants",
+            "value": 6505
+          }]
+        }]
+      }]
+    }, {
+      "name": "others",
+      "children": [{
+        "name": "others",
+        "children": [{
+          "name": "others",
+          "children": [{
+            "name": "others",
+            "value": 514
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "girls",
+    "children": [{
+      "name": "clothing",
+      "children": [{
+        "name": "frocks",
+        "children": [{
+          "name": "dresses & jumpsuits",
+          "children": [{
+            "name": "dungarees",
+            "value": 4425
+          }]
+        }]
+      }, {
+        "name": "tops",
+        "children": [{
+          "name": "tees & shirts",
+          "children": [{
+            "name": "twin_sets",
+            "value": 449
+          }]
+        }]
+      }, {
+        "name": "jeans",
+        "children": [{
+          "name": "jeggings & trousers",
+          "children": [{
+            "name": "harem",
+            "value": 770
+          }]
+        }]
+      }, {
+        "name": "skirts & shorts",
+        "children": [{
+          "name": "capris",
+          "children": [{
+            "name": "capris",
+            "value": 829
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "cardigans",
+          "children": [{
+            "name": "cardigans",
+            "value": 4665
+          }]
+        }]
+      }, {
+        "name": "shrugs",
+        "children": [{
+          "name": "jackets & blazers",
+          "children": [{
+            "name": "blazers",
+            "value": 6909
+          }]
+        }]
+      }]
+    }, {
+      "name": "ethnic wear",
+      "children": [{
+        "name": "kurtas",
+        "children": [{
+          "name": "lehengas & suit sets",
+          "children": [{
+            "name": "dupattas",
+            "value": 3672
+          }]
+        }]
+      }]
+    }, {
+      "name": "innerwear & nightwear",
+      "children": [{
+        "name": "nightwear",
+        "children": [{
+          "name": "sleep shorts",
+          "children": [{
+            "name": "sleepwear_shorts",
+            "value": 741
+          }]
+        }]
+      }, {
+        "name": "innerwear",
+        "children": [{
+          "name": "swimsuit",
+          "children": [{
+            "name": "swimsuit",
+            "value": 4543
+          }]
+        }]
+      }]
+    }, {
+      "name": "footwear",
+      "children": [{
+        "name": "ballerinas",
+        "children": [{
+          "name": "ballerinas",
+          "children": [{
+            "name": "ballerinas",
+            "value": 4938
+          }]
+        }]
+      }, {
+        "name": "casual shoes",
+        "children": [{
+          "name": "moccasins",
+          "children": [{
+            "name": "mocassins",
+            "value": 7891
+          }]
+        }]
+      }, {
+        "name": "heels & flats",
+        "children": [{
+          "name": "flats",
+          "children": [{
+            "name": "flats",
+            "value": 5520
+          }]
+        }]
+      }, {
+        "name": "formal shoes",
+        "children": [{
+          "name": "school shoes",
+          "children": [{
+            "name": "school_shoes",
+            "value": 9781
+          }]
+        }]
+      }, {
+        "name": "sports shoes",
+        "children": [{
+          "name": "outdoor sports shoes",
+          "children": [{
+            "name": "outdoor_sports_shoes",
+            "value": 1515
+          }]
+        }]
+      }, {
+        "name": "sandals & floaters",
+        "children": [{
+          "name": "floaters",
+          "children": [{
+            "name": "floaters",
+            "value": 2412
+          }]
+        }]
+      }, {
+        "name": "flip flops & slippers",
+        "children": [{
+          "name": "flip flops",
+          "children": [{
+            "name": "flip_flops",
+            "value": 7960
+          }]
+        }]
+      }]
+    }, {
+      "name": "accessories",
+      "children": [{
+        "name": "bags & backpacks",
+        "children": [{
+          "name": "pouches",
+          "children": [{
+            "name": "pouches",
+            "value": 2817
+          }]
+        }]
+      }, {
+        "name": "watches",
+        "children": [{
+          "name": "digital watches",
+          "children": [{
+            "name": "watches_digital",
+            "value": 6644
+          }]
+        }]
+      }, {
+        "name": "belts",
+        "children": [{
+          "name": "ties & add-ons",
+          "children": [{
+            "name": "handkerchief",
+            "value": 2482
+          }]
+        }]
+      }, {
+        "name": "sunglasses & frames",
+        "children": [{
+          "name": "frames",
+          "children": [{
+            "name": "frames",
+            "value": 7376
+          }]
+        }]
+      }, {
+        "name": "caps & hats",
+        "children": [{
+          "name": "hats",
+          "children": [{
+            "name": "hats",
+            "value": 7300
+          }]
+        }]
+      }, {
+        "name": "winter wear",
+        "children": [{
+          "name": "mittens",
+          "children": [{
+            "name": "mittens",
+            "value": 5897
+          }]
+        }]
+      }, {
+        "name": "socks",
+        "children": [{
+          "name": "socks",
+          "children": [{
+            "name": "socks",
+            "value": 6165
+          }]
+        }]
+      }, {
+        "name": "hair accessories",
+        "children": [{
+          "name": "hair clips",
+          "children": [{
+            "name": "hair_clips",
+            "value": 9649
+          }]
+        }]
+      }]
+    }, {
+      "name": "jewellery",
+      "children": [{
+        "name": "earrings",
+        "children": [{
+          "name": "studs",
+          "children": [{
+            "name": "earrings_studs",
+            "value": 299
+          }]
+        }]
+      }, {
+        "name": "bangles & bracelets",
+        "children": [{
+          "name": "bracelets",
+          "children": [{
+            "name": "bracelets",
+            "value": 8764
+          }]
+        }]
+      }, {
+        "name": "necklaces & pendants",
+        "children": [{
+          "name": "jewellery sets",
+          "children": [{
+            "name": "jewellery_sets",
+            "value": 6130
+          }]
+        }]
+      }, {
+        "name": "rings & bands",
+        "children": [{
+          "name": "rings",
+          "children": [{
+            "name": "rings",
+            "value": 8814
+          }]
+        }]
+      }]
+    }, {
+      "name": "others",
+      "children": [{
+        "name": "others",
+        "children": [{
+          "name": "others",
+          "children": [{
+            "name": "others",
+            "value": 8268
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "",
+    "children": [{
+      "name": "",
+      "children": [{
+        "name": "",
+        "children": [{
+          "name": "",
+          "children": [{
+            "name": "",
+            "value": 2824
+          }, {
+            "name": "",
+            "value": 1851
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "na",
+    "children": [{
+      "name": "beauty",
+      "children": [{
+        "name": "makeup",
+        "children": [{
+          "name": "nail polish",
+          "children": [{
+            "name": "nail_polish",
+            "value": 8441
+          }]
+        }]
+      }]
+    }, {
+      "name": "home & living",
+      "children": [{
+        "name": "kitchen & utensils",
+        "children": [{
+          "name": "glass",
+          "children": [{
+            "name": "glass",
+            "value": 3889
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "adult",
+    "children": [{
+      "name": "accessories",
+      "children": [{
+        "name": "shoe care",
+        "children": [{
+          "name": "spray",
+          "children": [{
+            "name": "spray",
+            "value": 4870
+          }]
+        }]
+      }, {
+        "name": "shoe accessories",
+        "children": [{
+          "name": "laces",
+          "children": [{
+            "name": "laces",
+            "value": 2755
+          }]
+        }]
+      }]
+    }]
+  }]
+}

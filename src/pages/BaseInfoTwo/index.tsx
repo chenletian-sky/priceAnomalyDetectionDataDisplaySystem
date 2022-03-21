@@ -1,12 +1,15 @@
 import React from 'react'
-import MyBubbleChart from '../../tools/MyBubbleChart'
-import MyControl from '../../tools/MyControl'
-import MyHierarchicalColumnChart from '../../tools/MyHierarchicalColumnChart'
-import MyHotSearchProductWordCloudMap from '../../tools/MyHotSearchProductWordCloudMap'
-import MyMap from '../../tools/MyMap'
-import MyPriceLineChart from '../../tools/MyPriceLineChart'
-import MyProportionPieChart from '../../tools/MyProportionPieChart'
+
+
+
 import { Themes } from '../../tools/position'
+import MyBubbleChart from './components/MyBubbleChart'
+import MyControl from './components/MyControl'
+import MyHierarchicalColumnChart from './components/MyHierarchicalColumnChart'
+import MyHotSearchProductWordCloudMap from './components/MyHotSearchProductWordCloudMap'
+import MyMap from './components/MyMap'
+import MyPriceLineChart from './components/MyPriceLineChart'
+import MyProportionPieChart from './components/MyProportionPieChart'
 
 interface BaseInfoTwo {
   // history:any

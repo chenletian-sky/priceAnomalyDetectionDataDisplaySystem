@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-import MyParallelCoordinateSystemDiagram from '../../tools/myParallelCoordinateSystemDiagram'
+
 import { Themes } from '../../tools/position'
 
 interface TestChartPageProps {

@@ -1,11 +1,11 @@
 export const Themes = {
   // exmple
   TestChartTheme:{
-    position:"relative",
-    float:"left",
+    // position:"relative",
+    // float:"left",
     width:"100%",
     height:'100%',
-    border:"1px solid rgb(180,180,180)",
+    // border:"1px solid rgb(180,180,180)",
   },
   // 1450 750
   ControlTheme:{
@@ -38,9 +38,9 @@ export const Themes = {
   MyParallelCoordinateSystemDiagramTheme:{
     position:"relative",
     float:"left",
-    width:"100%",
+    width:"88%",
     height:'33%',
-    border:"1px solid rgb(180,180,180)",
+    // border:"1px solid rgb(180,180,180)",
     // backgroundColor:"black"
   },
   MyColumnChartFirstTheme:{

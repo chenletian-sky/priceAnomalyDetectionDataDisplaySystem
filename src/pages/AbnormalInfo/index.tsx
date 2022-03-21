@@ -1,12 +1,14 @@
 import React from 'react'
-import MyAbnormalInfo from '../../tools/MyAbnormalInfo'
-import MyAbnormalInfoDisplay from '../../tools/MyAbnormalInfoDisplay'
-import MyBoxPlotForPrice from '../../tools/MyBoxPlotForPrice'
-import MyBoxPlotForSales from '../../tools/MyBoxPlotForSales'
-import MyControlForAbnormal from '../../tools/MyControlForAbnormal'
-import MyScatterForPrice from '../../tools/MyScatterForPrice'
-import MyScatterForSales from '../../tools/MyScatterForSales'
+
 import { Themes } from '../../tools/position'
+
+import MyAbnormalInfo from './components/MyAbnormalInfo'
+import MyAbnormalInfoDisplay from './components/MyAbnormalInfoDisplay'
+import MyBoxPlotForPrice from './components/MyBoxPlotForPrice'
+import MyBoxPlotForSales from './components/MyBoxPlotForSales'
+import MyControlForAbnormal from './components/MyControlForAbnormal'
+import MyScatterForPrice from './components/MyScatterForPrice'
+import MyScatterForSales from './components/MyScatterForSales'
 
 interface AbnormalInfoProps{
   // history:any;
